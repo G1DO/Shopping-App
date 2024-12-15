@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Product ID Input -->
+    <EditText
+        android:id="@+id/editTextProductId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product ID"
+        android:inputType="number"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Product Name Input -->
+    <EditText
+        android:id="@+id/editTextEditProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Product Name" />
+
+    <!-- Product Category Input -->
+    <EditText
+        android:id="@+id/editTextEditProductCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Product Category" />
+
+    <!-- Product Price Input -->
+    <EditText
+        android:id="@+id/editTextEditProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Product Price"
+        android:inputType="numberDecimal" />
+
+    <!-- Product Stock Input -->
+    <EditText
+        android:id="@+id/editTextEditProductStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Stock Quantity"
+        android:inputType="number"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Update Product Button -->
+    <Button
+        android:id="@+id/buttonUpdateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Product" />
+</LinearLayout>
